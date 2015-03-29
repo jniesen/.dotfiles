@@ -13,3 +13,5 @@ alias psaux='psaux_func'
 # Load Rbenv environment
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+export EDITOR=/usr/local/bin/vim
+export VISUAL=/usr/local/bin/vim
