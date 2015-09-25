@@ -91,6 +91,8 @@ map <leader><BS> :tabclose<cr>
 " NERDTree: Toggle file drawer
 nmap <silent> <Leader>nt :NERDTreeToggle <CR>
 
+" NERDTree: Show hidden files
+let NERDTreeShowHidden=1
 
 " CtrlP: Toggle finder
 map <C-p> :CtrlP <CR>
